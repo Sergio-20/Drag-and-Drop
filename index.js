@@ -1,3 +1,4 @@
+//Div with the image, and divs without the image.
 const fill = document.querySelector('.fill');
 const empties = document.querySelectorAll('.empty');
 

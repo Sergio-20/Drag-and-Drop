@@ -1,5 +1,12 @@
 body {
-  background: darksalmon;
+  background:#044;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .fill {
@@ -12,20 +19,22 @@ body {
   cursor: pointer;
 }
 
-.hold {
-  border: solid 5px #ccc;
-}
-
 .empty {
   display: inline-block;
   height: 160px;
   width: 160px;
   margin: 10px;
-  border: solid 3px salmon;
+  border: solid 3px #555;
   background: white;
+}
+
+.hold {
+  border: solid 5px #ccc;
 }
 
 .hovered {
   background: #f4f4f4;
   border-style: dashed;
 }
+
+/*Media Queries*/

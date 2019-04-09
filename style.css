@@ -1,5 +1,5 @@
 body {
-  background:#044 !important;
+  background: #044 !important;
 }
 
 .container {
@@ -37,4 +37,24 @@ body {
   border-style: dashed;
 }
 
-/*Media Queries*/
+/*Media Queries For Phones, Tablet and Laptop/PC Queries are unnecessary.*/
+
+@media only screen and (min-width: 320px) and (max-width: 400px)
+{
+  .container {
+    display: block;
+    margin-left: 80%;
+    margin-top: 5%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px)
+{
+  .container {
+    display: block;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translateX(-50%);
+  }
+}
